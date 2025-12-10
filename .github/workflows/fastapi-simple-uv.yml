@@ -3,7 +3,7 @@ name: Build and Deploy FastAPI Simple uv project
 on:
   push:
     paths:
-      - "./**"
+      - "**"
     branches:
       - main
 
