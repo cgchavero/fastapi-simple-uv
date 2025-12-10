@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def main():
-    return "Hello from fastapi-simple-uv!"
+    return "Hello from fastapi-simple-uv! v2"
 
 @app.get("/health")
 async def health_check():
