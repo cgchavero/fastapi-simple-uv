@@ -35,7 +35,7 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_AKI_MAIN }}
           aws-secret-access-key: ${{ secrets.AWS_SAK_MAIN }}
           aws-secret-account-id: ${{ secrets.AWS_AID }}
-          aws-region: us-east-1
+          aws-region: us-east-2
 
       - name: Login to Amazon ECR
         run: |
@@ -55,4 +55,4 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_AKI_MAIN }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SAK_MAIN }}
           aws-secret-account-id: ${{ secrets.AWS_AID }}
-          AWS_DEFAULT_REGION: "us-east-1"
+          AWS_DEFAULT_REGION: "us-east-2"
